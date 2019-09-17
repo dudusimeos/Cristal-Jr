@@ -1,6 +1,7 @@
 # Cristal Jr
 
 git config --global user.name "user_git"
+
 git config --global user.email "email_git"
 
 git init 
