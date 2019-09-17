@@ -1,0 +1,40 @@
+    /* NOSSA HISTÓRIA */
+
+
+.fundobranco2{
+    background-color: white;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.sectionsobrenos2{
+    background-image: url(../img/bgsn.png);
+    background-repeat: repeat;
+    background-size: contain; 
+}
+
+.linha{
+    width:300px;
+    background-color: darkgray;
+}
+
+.linha2{
+    width:340px;
+    background-color: darkgray;
+}
+
+@media(max-width:600px){
+    /* SOBRE NÓS */
+    .fundobranco2{
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+}
+
+@media(max-width:985px){
+    /* QUEM SOMOS? */
+    .sectionsobrenos2{
+        background: white;
+    }
+}

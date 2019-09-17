@@ -1,0 +1,415 @@
+body{
+    overflow-x: hidden;
+}
+
+/* NAVBAR */
+.cor {
+    background-color: rgba(0, 0, 0, 0.9)!important; 
+    font-size: 120%;
+}
+
+.logonav{
+    height: 60px;
+}
+
+.nav-item{
+    padding-right: 15px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(255, 255, 255, 1);
+}
+
+.hvr-underline-from-center:before {
+    background-color: #FFAF23;
+}
+
+.dropdown-menu{
+    background-color: rgba(0, 0, 0, 0.9);
+    font-size: 80%;
+}
+
+.dropdown-item:hover{
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.cliqueserv{
+    color: aliceblue;
+}
+
+.cliqueserv:hover{
+    text-decoration: none;
+    color: #fafafa;
+}
+
+/* HOME */
+
+.carousel, .carousel-item{
+    height: 100%; 
+    max-height: 100vh;
+}
+
+.carousel-inner{
+    text-align: left;
+}
+
+.titulo{
+    position: absolute;
+    z-index: 1;
+    height:90%;    
+}
+
+.carousel-control-prev, .carousel-control-next{
+    position: absolute;
+    z-index: 1;
+}
+
+/* SOBRE NÓS */
+
+.sectionsobrenos{
+    background-image: url(../img/bgsn.png);
+    background-repeat: repeat;
+    background-size: contain;
+}
+
+.titulosobre{
+    font-size: 40px ;
+    font-family: 'Rosario', sans-serif;
+    white-space: nowrap;
+}
+
+.linha{
+    width:260px;
+    background-color: darkgray;
+
+}
+
+.fundobranco{
+    background-color: white;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.textoquemsomos{
+    text-align: justify;
+    font-size: 140% ;
+    font-family: 'Rosario', sans-serif;
+}
+
+.btn-outline-warning{
+    color:white;
+    border-color: #FFAF23;
+    border-width: 2px;
+}
+
+.btn-outline-warning:hover{
+    background-color: #FFAF23;
+}
+
+.botaonossahistoria{
+    color: black;
+}
+
+.botaonossahistoria:hover{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+/* LANDING PAGE */
+
+/* SERVIÇOS */
+
+.tituloservico{
+    text-align: center;
+    font-size: 250% ;
+    font-family: 'Rosario', sans-serif;
+    white-space: nowrap;
+}
+
+.linha2{
+    width: 200px;
+    background-color: darkgray;
+
+}
+
+.colserv{
+    text-align: center;
+    height: 280px;
+    
+}
+
+.imgserv{
+    height: 60%;
+    transition: transform .6s;
+    cursor: pointer;
+}
+
+.imgserv:hover{
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1); 
+}
+
+.nomeserv{
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.linkserv{
+    color: #FFAF23;
+}
+
+.linkserv:hover{
+    text-decoration: none;
+    color: black;
+}
+
+.nomeservicoquebrado{
+   white-space: unset;
+
+}
+
+/* PARCEIROS */
+
+.colparc{
+    text-align: center;
+    height: 400px;
+}
+
+.tituloparc{
+    text-align: center;
+    font-size: 250% ;
+    font-family: 'Rosario', sans-serif;
+    white-space: nowrap;
+}
+
+.linha3{
+    width: 200px;
+    background-color: darkgray;
+}
+
+.imgparc{
+    height:50%;
+}
+
+/* CONTATOS */
+
+.sectioncontato{
+    background-image: url(../img/bgcontatos.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: -70px;
+}
+
+.contatos{
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.textocontatos{
+    color: aliceblue;
+    font-size: 13px;
+}
+
+.contatosesquerda{
+    text-align: center;
+}
+
+.iconecontatos2{
+    text-align: center;
+}
+
+.iconecontatos3{
+    text-align: center;
+}
+
+.contatosdireita{
+    width: 80%;
+    text-align: center;
+}
+
+.titulocontatos{
+    width: 80%;
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Rosario', sans-serif;
+    white-space: nowrap;
+    color: aliceblue
+}
+
+.formularios1{
+    width: 80%;
+    background: transparent;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #fafafa;
+}
+
+.inputText{
+    position: absolute;
+    line-height: 30px;
+    font-size: 15px;
+    margin-left: 10%;
+    color: white;
+    transition: .5s;
+    opacity: .5;
+}
+
+.input{
+    color: aliceblue;
+}
+
+.inputcomentario{
+    color: black;
+}
+
+.focus .inputText {
+    transform: translateY(-20px);
+    font-size: 14px;
+    opacity: 1;
+    color: #FFAF23;
+}
+
+.textocomentario{
+    color: black;
+}
+.focus .textocomentario{
+    transform: translateY(-23px);
+}
+
+.textarea{
+    width: 80%;
+    resize: none;
+    border-radius: 5px;
+}
+
+.botaocont{
+    width: 80px;
+}
+
+/* FOOTER */
+
+footer{
+    background-color: black;
+
+}
+
+.link{
+    color: white;
+}
+
+.link:hover{
+    text-decoration: none;
+    color: #FFAF23;
+}
+
+.textofooter{
+    color: aliceblue;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+/* RESPONSIVIDADE */
+
+@media(max-width:600px){
+    /* SOBRE NÓS */
+    .fundobranco{
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+}
+
+@media(max-width:1050px){
+    /* PARCEIROS */
+    .imgparc{
+        height:40%;
+    }
+     
+    .colparc{
+        height: 300px;
+    }
+
+}
+
+@media(max-width:1110px){
+    /* CONTATOS */
+    .mapacontatos{
+        width: 80%;
+    }
+
+    /* Servicos */
+
+    .colserv{
+        height: 250px;
+    }
+
+}
+
+@media(max-width:1125px){
+     /* CONTATOS */
+     .titulocontatos{
+        font-size: 35px;
+     }
+}
+
+@media(max-width:985px){
+    /* CONTATOS */
+    .titulocontatos{
+       font-size: 30px;
+    }
+    /* QUEM SOMOS? */
+    .sectionsobrenos{
+        background: white;
+    }
+}
+
+@media(max-width:854px){
+    /* CONTATOS */
+    .titulocontatos{
+       font-size: 25px;
+    }
+}
+
+@media(max-width:768px){
+    /* NAVBAR */
+    .logonav{
+        height: 40px;
+    }
+    
+    /* CONTATOS */
+    .iconescontatostigfb{
+        margin-top: 0;
+    }
+
+    .iconecontatos2{
+        margin-left: -20px;
+        text-align: center;
+       
+    }
+
+    .textocontatos{
+        font-size: 12px;
+    }
+}
+
+/* ANIMAÇÃO SURGINDO NA PÁGINA */
+
+[data-anime]{
+    opacity: 0; 
+    transition: .3s;
+}
+
+[data-anime="left"]{
+        transform: translate3d(-50px, 0, 0);
+}
+
+
+[data-anime="top"]{
+    transform: translate3d( 0, 50px, 0);
+}
+
+[data-anime].animate{
+    opacity: 1;
+    transform: translate3d(0px, 0px, 0px);
+}
+
