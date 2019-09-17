@@ -8,6 +8,11 @@ body{
     font-size: 120%;
 }
 
+.cor-scroll{
+    background-color: rgba(0, 0, 0, 1)!important; 
+    font-size: 120%;
+}
+
 .logonav{
     height: 60px;
 }

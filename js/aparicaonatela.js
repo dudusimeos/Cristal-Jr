@@ -38,6 +38,15 @@ const debounce = function(func, wait, immediate) {
         element.classList.remove(animationClass);
       }
     })
+    
+    if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+      document.getElementById("navbar").classList.add('cor-scroll');
+      document.getElementById("navbar").classList.remove('cor');
+    } else {
+      document.getElementById("navbar").classList.remove('cor-scroll');
+      document.getElementById("navbar").classList.add('cor');
+    }
+
   }
    
   animeScroll();
