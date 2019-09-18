@@ -13,7 +13,7 @@ if(isset($_POST['nome']) && isset($_POST['email']) && isset($_POST['mensagem']))
     echo ("Sua mensagem foi enviada com sucesso!");
 
     // email onde tu vai receber a mensagem
-    $destinatario = "biancamiriancj@gmail.com";
+    $destinatario = "";
 
     // headers que prepara a mensagem
     $headers = "MIME-Version: 1.0\r\n";
@@ -25,7 +25,7 @@ if(isset($_POST['nome']) && isset($_POST['email']) && isset($_POST['mensagem']))
     mail($destinatario,$assunto,$msg,$headers);
 
     // volta para contato.html
-    header("Location: ../index.html");
+    header("Location: /index.html");
 
 }
 
