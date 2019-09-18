@@ -1,0 +1,423 @@
+
+.tituloserv{
+    text-align: center;
+    font-size: 200% ;
+    font-family: 'Rosario', sans-serif;
+    white-space: normal;
+}
+
+.textoserv, .textoserv2{
+    text-align: justify;
+    font-size: 140% ;
+    font-family: 'Rosario', sans-serif;
+}
+
+
+/* SERVIÇO 1 */
+.linhaserv1{
+    width:535px;
+    color:darkgray;
+
+}
+
+/* SERVIÇO 2 */
+.linhaserv2{
+    width:200px;
+    color:darkgray;
+
+}
+
+/* SERVIÇO 3 */
+.linhaserv3{
+    width:600px;
+    color:darkgray;
+}
+
+/* SERVIÇO 4 */
+.linhaserv4{
+    width:550px;
+    color:darkgray;
+}
+
+/* SERVIÇO 5 */
+.linhaserv5{
+    width:470px;
+    color:darkgray;
+}
+
+/* SERVIÇO 6 */
+.linhaserv6{
+    width:540px;
+    color:darkgray;
+}
+
+
+/************ GERAL  DOS SERVIÇOS ************/
+.imgpaginaserv , .imgpaginaserv3{
+    height: 60%;
+    margin-top: 8vh;
+}
+.fundocinza{
+    background-color: #ededed;
+    margin-top: 10%;
+    height: 100%;
+    width: 100%;
+}
+.btnorcamento{
+    margin-top: -18vh;
+} 
+
+.btnorcamento3 {
+    margin-top:-10vh;
+}
+
+.botaoorcamento{
+    color: black;
+    position: relative;
+}
+
+.botaoorcamento:hover{
+    text-decoration: none;
+    color: black;
+}
+
+
+/* DESTAQUES */
+.fundodestaques{
+    min-height: 450px;
+}
+.titulodestaques{
+    text-align: center;
+    font-size: 200% ;
+    font-family: 'Rosario', sans-serif;
+    white-space: nowrap;
+}
+
+.linhadest1{
+    width: 320px;
+    margin-right: 38.5%;
+}
+
+.imgdestaques{
+    height:30% ;
+    width:30% ;
+}
+
+.coldest{
+    text-align: center;
+    height: 400px;
+}
+
+
+/* SECTION 2*/
+.fundocinza2{
+    background-color: #ededed;  
+    margin-top: -12vh;
+    height: 100%;
+    width: 100%;
+}
+
+
+/* LINHA DIVISÓRIA */
+.linhadivisoria{
+    background-color:darkgray;
+    width: 100%;
+    margin-top: -20vh;
+}
+
+
+/* SECTION ATENÇÃO */
+.tituloatencao{
+    text-align: center;
+    font-size: 200% ;
+    font-family: 'Rosario', sans-serif;
+    white-space: normal;
+}
+
+
+/* CONTATO */
+.btn-outline-warning{
+    color:black;
+    border-color: #FFAF23;
+    border-width: 2px;
+}
+
+.sectioncontatoserv{
+    background-color: #ededed;
+    margin-top: -90px;
+}
+
+.textocontatosserv{
+    color: black;
+    font-size: 13px;
+    
+}
+
+.contatosesquerdaserv{
+    text-align: center;
+}
+
+.iconecontatos2serv{
+    text-align: center;
+}
+
+.iconecontatos3serv{
+    text-align: center;
+}
+
+.contatosdireitaserv{
+    width: 80%;
+    text-align: center;
+}
+
+.titulocontatosserv{
+    width: 80%;
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Rosario', sans-serif;
+    white-space: normal;
+    color:black;
+}
+
+.formularios1serv{
+    width: 80%;
+    background: transparent;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #646464;
+}
+
+.textareaserv{
+    background-color: #646464;  
+    width: 80%;
+    resize: none;
+    border-radius: 5px;
+}
+
+.botaocontserv{
+    width: 80px;
+}
+
+.inputText{
+    position: absolute;
+    line-height: 30px;
+    font-size: 15px;
+    margin-left: 10%;
+    color: black;
+    transition: .5s;
+    opacity: .5;
+}
+
+.input{
+    color: black;
+}
+
+.inputcomentarioserv{
+    color: white;
+}
+
+.focus .inputTextserv {
+    transform: translateY(-20px);
+    font-size: 14px;
+    opacity: 1;
+    color: #FFAF23;
+}
+
+.focus .textocomentario{
+    transform: translateY(-23px);
+}
+
+/* FOOTER */
+.footerserv{
+    background-color: black;
+    height: 5vh;
+}
+.linkserv{
+    color: white;
+}
+.linkserv:hover{
+    text-decoration: none;
+    color: #FFAF23;
+}
+.textofooterserv{
+    color: aliceblue;
+    text-align: center;
+    margin-bottom: -10vh;
+}
+
+
+/*********************************** RESPONSIVIDADE ********************************/
+
+/********** CONTATOS **********/
+@media(max-width:1125px){
+    
+    .titulocontatosserv{
+        font-size: 35px;
+    }
+}
+@media(max-width:1110px){
+    
+    .mapacontatosserv{
+        width: 80%;
+    }
+
+}
+@media(max-width:985px){
+
+    .titulocontatosserv{
+       font-size: 30px;
+    }
+}
+@media(max-width:854px){
+    
+    .titulocontatosserv{
+       font-size: 25px;
+    }
+}
+@media(max-width:768px){
+
+    .iconescontatostigfbserv{
+        margin-top: 0;
+    }
+    .iconecontatos2serv{
+        margin-left: -20px;
+        text-align: center;
+    }
+    .textocontatosserv{
+        font-size: 12px;
+    }
+} 
+
+/*----------IPAD PRO----------*/
+@media(max-width:1024px){
+    .fundocinza{
+        margin-top: 12vh;
+        height: 100%;
+    }
+    .fundocinza2{
+        margin-top: -1vh;  
+    }
+    .btnorcamento{
+        margin-top:-8vh;
+    }
+    .btnorcamento3{
+        margin-top:0vh;
+    }
+    .linhaserv1, .linhaserv2, .linhaserv3, .linhaserv4, .linhaserv5, .linhaserv6{
+        width:370px;
+    }
+    .titulodestaques{
+        text-align: center;
+    }
+    .linhadest1{
+        margin-right: 33vw;
+    }
+    .imgdestaques{
+        height:30% ;
+        width:40% ;
+    }
+    .linhadivisoria{
+        margin-top: -12vh;
+    }
+    .tituloatencao{
+        white-space: normal;
+    }
+}
+
+/* -----------IPAD---------- */
+@media(max-width:850px){
+    .fundocinza2{ 
+        margin-top: -2vh;  
+    }
+    .imgpaginaserv{
+        height: 35%;
+        margin-top: 10vh;
+        margin-left: 7%;
+    }
+    .imgpaginaserv3{
+        height: 35%;
+        margin-top: 18vh;
+        margin-left: 7%;
+    }
+    .tituloserv{
+        line-height: 30px;
+    }
+    .linhaserv1, .linhaserv2, .linhaserv3, .linhaserv4, .linhaserv5, .linhaserv6{
+        display: none;
+    }
+    .btnorcamento{
+        margin-top: -15vh;
+    }
+    .btnorcamento3{   
+        margin-top: -12vh;
+    }
+    .linhadest1{
+        display: none;
+    }
+    .textoserv2{
+       line-height: 22px;
+    }
+    .linhadivisoria{
+        margin-top: -10vh;
+    }
+    .imgdestaques{
+        height:90px ;
+        width:90px ;
+        margin-top: 3%;
+    }
+    .coldest{
+        height: 150px;
+    }
+}
+
+/* ----------IPHONE X---------- */
+@media(max-width:375px){
+    .imgpaginaserv{
+        height: 40%;
+        margin-top: 15%;
+    }
+    .btnorcamento, .btnorcamento3{
+        margin-top: 5vh;
+    }
+}
+
+/* ----------IPHONE 6/7/8 PLUS---------- */
+@media(max-width:414px){
+    .fundocinza2{ 
+        margin-top: -3vh;  
+    }
+    .fundocinza{
+        margin-top: 20vh;
+    }
+    .imgpaginaserv{
+        height: 40%;
+        margin-top: 15%;
+    }
+    .textoserv, .textoserv2{
+        margin-left: 8vw; 
+    }
+    .tituloserv{
+        margin-top: -40vh;
+        margin-left: 4vw;
+    }
+    .btnorcamento, .btnorcamento3 {
+        margin-top:3vh;
+    }
+    .linhadivisoria{
+        margin-top:0; 
+    }
+}
+
+/* ----------IPHONE 5/SE---------- */
+@media(max-width:320px){
+    .tituloserv{
+        margin-top: -50vh;
+        font-size: 160%;
+    }
+    .titulodestaques{
+        font-size: 160%;
+    }
+    .tituloatencao{
+        font-size: 160%;
+    }
+}
