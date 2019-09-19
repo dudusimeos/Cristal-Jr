@@ -10,7 +10,6 @@ if(isset($_POST['nome']) && isset($_POST['email']) && isset($_POST['mensagem']))
     $msg .= "Mensagem:<br>" . $_POST["mensagem"];
     
     echo($msg);
-    echo ("Sua mensagem foi enviada com sucesso!");
 
     // email onde tu vai receber a mensagem
     $destinatario = "";
@@ -25,7 +24,7 @@ if(isset($_POST['nome']) && isset($_POST['email']) && isset($_POST['mensagem']))
     mail($destinatario,$assunto,$msg,$headers);
 
     // volta para contato.html
-    header("Location: /index.html");
+    header("Location: ../index.html");
 
 }
 
