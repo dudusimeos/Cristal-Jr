@@ -197,7 +197,8 @@ body{
 }
 
 .imgparc{
-    height:50%;
+    height:150px;
+    /* QUATRO O HEIGHT VAI PRA 50% */
 }
 
 /* CONTATOS */

@@ -15,18 +15,13 @@
     <link rel="icon" type="imagem/png" href="./img/iconediamante.png" />
     <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
 
-
-
-    <title>Cristal Jr.</title>
+    <title>Ebooks - Cristal Jr.</title>
 </head>
 
 <body>
 
-
-
-
     <!-- NAVBAR -->
-    <nav class="navbar navbar-expand-lg bg-dark navbar-dark cor fixed-top ">
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark cor fixed-top " id="navbar">
         <a class="navbar-brand" href="#"><img class="logonav ml-3" src="./img/logonav.png" alt=""></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
             aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Alterna navegação">
@@ -79,35 +74,35 @@
         </div>
     </nav>
 
-    <!-- NOSSA HISTÓRIA -->
-    <section class="sectionebook container-fluid mt-2">
+    <!-- EBOOK -->
+    <section class="sectionebook container-fluid mt-2" >
         <div class="fundobranco2">
             <div class="parallax row">
-                <div class="col-12 text-center mt-5">
-                    <p class="tituloebook mt-5 text-center" id="ebook"></p>
+                <div class="col-12 text-center mt-5 " data-anime="top">
+                    <p class="tituloebook mt-5 text-center" id="ebook" >BAIXE JÁ O SEU EBOOK</p>
                     <hr class="linha3">
                 </div>
             </div>
             <div class="parallax row">
                 <div class="col-12 col-md-4 text-center mt-4">
-                    <img class="imgebook" src="./img/fotoebook.png" alt="">
-                    <p class="mt-2 textoebook">EBOOK 1</p>
+                    <img class="imgebook" src="./img/fotoebook.png" alt="" data-anime="top">
+                    <p class="mt-2 textoebook" data-anime="top">EBOOK 1</p>
                     <div class="btnsn text-center mt-5 ">
                         <button type="button" class="btn btn-outline-warning "><a class="botaoebook"
                                 href="./download/planodeensino.pdf" target="_blank">DOWNLOAD</a></button>
                     </div>
                 </div>
                 <div class="col-12 col-md-4 text-center mt-4">
-                    <img class="imgebook" src="./img/fotoebook.png" alt="">
-                    <p class="mt-2 textoebook">EBOOK 2</p>
+                    <img class="imgebook" src="./img/fotoebook.png" alt="" data-anime="top">
+                    <p class="mt-2 textoebook" data-anime="top">EBOOK 2</p>
                     <div class="btnsn text-center mt-5 ">
                         <button type="button" class="btn btn-outline-warning "><a class="botaoebook"
                                 href="./download/planodeensino.pdf" target="_blank">DOWNLOAD</a></button>
                     </div>
                 </div>
                 <div class="col-12 col-md-4 text-center mt-4">
-                    <img class="imgebook" src="./img/fotoebook.png" alt="">
-                    <p class="mt-2 textoebook">EBOOK 3</p>
+                    <img class="imgebook" src="./img/fotoebook.png" alt="" data-anime="top">
+                    <p class="mt-2 textoebook" data-anime="top">EBOOK 3</p>
                     <div class="btnsn text-center mt-5 ">
                         <button type="button" class="btn btn-outline-warning "><a class="botaoebook"
                                 href="./download/planodeensino.pdf" target="_blank">DOWNLOAD</a></button>
@@ -122,67 +117,72 @@
     <!-- CONTATOS -->
     <section class="sectioncontato container-fluid mt-5" id="contatos">
         <div class="row">
-          <div class="col-10 offset-1 contatos">
-            <div class="row">
-              <div class="col-12 col-md-6">
-                <div class="contatosesquerda mt-4">
-                  <iframe class="mapacontatos"
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.561105423691!2d-38.51302368560321!3d-12.999899763899556!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x716049e7a4cbc61%3A0x2ccdd89bb21b572e!2sCristal+Minera%C3%A7%C3%A3o+Jr.!5e0!3m2!1spt-BR!2sbr!4v1566238502881!5m2!1spt-BR!2sbr"
-                    width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
-                  <p class="textocontatos">Escola Politécnica
-                    Universidade Federal da Bahia;
-                    Rua Prof. Aristides Novis, 02, Federação. CEP 40210-630
-                    sala 03.03.08
-                  </p>
-                  <div class="row iconecontatos1">
-                    <div class="col-6 col-md-6 iconecontatos2">
-                      <a href=""><img class="mr-5 offset-2 iconetel" src="./img/iconetelefonebranco.png" alt=""></a>
-                      <p class="textocontatos ">(71)3283-9511<br>(74) 99942-4435</p>
-                    </div>
-                    <div class="col-6 col-md-6 iconecontatos2 ">
-                      <a href=""><img class="ml-5 iconemail" src="./img/emailbranco.png" alt=""></a>
-                      <p class="textocontatos offset-2">cristal@ufba.br<br>comercial.cristaljr@gmail.com</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-12 col-md-6 contatosdireita mt-4">
+            <div class="col-10 offset-1 contatos">
                 <div class="row">
-                  <p class="col-12 titulocontatos " id="comentario"></p>
+                    <div class="col-12 col-md-6">
+                        <div class="contatosesquerda mt-4">
+                            <iframe class="mapacontatos"
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.561105423691!2d-38.51302368560321!3d-12.999899763899556!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x716049e7a4cbc61%3A0x2ccdd89bb21b572e!2sCristal+Minera%C3%A7%C3%A3o+Jr.!5e0!3m2!1spt-BR!2sbr!4v1566238502881!5m2!1spt-BR!2sbr"
+                                width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+                            <p class="textocontatos">Escola Politécnica
+                                Universidade Federal da Bahia;
+                                Rua Prof. Aristides Novis, 02, Federação. CEP 40210-630
+                                sala 03.03.08
+                            </p>
+                            <div class="row iconecontatos1">
+                                <div class="col-6 col-md-6 iconecontatos2">
+                                    <img class="mr-5 offset-2 iconetel" src="./img/iconetelefonebranco.png" alt="">
+                                    <p class="textocontatos ">(71)3283-9511<br>(74) 99942-4435</p>
+                                </div>
+                                <div class="col-6 col-md-6 iconecontatos2 ">
+                                    <img class="ml-5 iconemail" src="./img/emailbranco.png" alt="">
+                                    <p class="textocontatos offset-2">cristal@ufba.br<br>comercial.cristaljr@gmail.com
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 contatosdireita mt-4">
+                        <div class="row " >
+                            <p class="col-12 titulocontatos " >DEIXE SEU COMENTÁRIO</p>
+                        </div>
+                        <div class="formBox">
+                            <form action="">
+                                <div class="inputBox ">
+                                    <p class="inputText">NOME:</p>
+                                    <input class="formularios1 input" type="text"><br><br>
+                                </div>
+                                <div class="inputBox">
+                                    <p class="inputText">E-MAIL:</p>
+                                    <input class="formularios1 input" type="text"><br><br>
+                                </div>
+                                <div class="inputBox ">
+                                    <p class="inputText textocomentario">&nbsp;COMENTÁRIO:</p>
+                                    <textarea class="textarea input inputcomentario" name="" id="" rows="6"
+                                        placeholder=""></textarea><br><br>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="row">
+                            <div class="col-3 mt-4 offset-1 iconecontatos3">
+                                <a href="https://www.instagram.com/cristalminerapetrojr/" target="_blank"><img
+                                        class="iconeinstagram iconescontatostigfb" src="./img/instagrambranco.png"
+                                        alt=""></a>
+                            </div>
+                            <div class="col-3 mt-4 iconecontatos3">
+                                <a href="https://www.facebook.com/cristalmpjr/?ref=br_rs" target="_blank"><img
+                                        class=" iconescontatostigfb" src="./img/facebookbranco.png" alt=""></a>
+                            </div>
+                            <div class="col-3 offset-1 btnsn">
+                                <button type="button"
+                                    class="botaocont btn btn-outline-warning textocontatos">ENVIAR</button>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="formBox">
-                  <form action="">
-                    <div class="inputBox ">
-                      <p class="inputText">NOME:</p>
-                      <input class="formularios1 input" type="text"><br><br>
-                    </div>
-                    <div class="inputBox">
-                      <p class="inputText">E-MAIL:</p>
-                      <input class="formularios1 input" type="text"><br><br>
-                    </div>
-                    <div class="inputBox ">
-                      <p class="inputText textocomentario">&nbsp;COMENTÁRIO:</p>
-                      <textarea class="textarea input inputcomentario" name="" id="" rows="6"
-                        placeholder=""></textarea><br><br>
-                    </div>
-                  </form>
-                  <div class="row">
-                    <div class="col-3 mt-4 offset-1 iconecontatos3">
-                      <a href=""><img class="iconeinstagram iconescontatostigfb" src="./img/instagrambranco.png" alt=""></a>
-                    </div>
-                    <div class="col-3 mt-4 iconecontatos3">
-                      <a href=""><img class=" iconescontatostigfb" src="./img/facebookbranco.png" alt=""></a>
-                    </div>
-                    <div class="col-3 offset-1 btnsn">
-                      <button type="button" class="botaocont btn btn-outline-warning textocontatos">ENVIAR</button>
-                    </div>
-                  </div>
-                </div>
-              </div>
             </div>
-          </div>
         </div>
-      </section>
+    </section>
 
 
 
@@ -264,10 +264,10 @@
 
 
 
-
+    <script src="./js/aparicaonatela.js"></script> 
     <script src="./js/landingpage.js"></script>
     <script src="./js/efeitoformulário.js"></script>
-    <script src="./js/textodigitando.js"></script>
+    <!-- <script src="./js/textodigitando.js"></script> -->
     <script src="./js/jsscroll.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
