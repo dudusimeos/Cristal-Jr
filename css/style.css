@@ -80,6 +80,12 @@ body{
     background-size: contain;
 }
 
+/* #particles-js{
+    background: linear-gradient(45deg, #e91e63, #ff9800);
+    background-position: top;
+    height: 0%;
+} */
+
 .titulosobre{
     font-size: 40px ;
     font-family: 'Rosario', sans-serif;
@@ -96,6 +102,7 @@ body{
     background-color: white;
     margin-left: 10%;
     margin-right: 10%;
+    
 }
 
 .textoquemsomos{
