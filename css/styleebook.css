@@ -83,6 +83,15 @@
 
 /* LANDING PAGE */
 
+.imagemlanding{
+    height: 80%;
+    border-radius: 50px;
+}
+
+.textodescricao{
+    color: white;
+}
+
 .modal-container{
     height: 100vh;
     width: 100%;
@@ -168,6 +177,7 @@
     width: 100%;
     margin: 0px;
     height: 23%;
+    
 }
 
 .titulolanding{
@@ -199,4 +209,21 @@
 [data-anime].animate{
     opacity: 1;
     transform: translate3d(0px, 0px, 0px);
+}
+
+
+/* RESPONSIVIDADE LANDING PAGE */
+
+@media(max-width:1125px){
+    .ladoesquerdolanding{
+        display: none;
+    }
+
+    .conteudolanding{
+        justify-content: center;
+    }
+
+    .footerlanding{
+        display: none;
+    }
 }

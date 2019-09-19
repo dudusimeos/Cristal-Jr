@@ -75,7 +75,7 @@
     <div class="fundocinza container-fluid">
       <div class="row container-fluid">
         <div class="col-12 col-md-6 mt-3 text-center" data-anime="left">
-          <img class="imgpaginaserv" src="./img/imgpaginaserv.png">
+          <img class="imgpaginaserv" src="./img/relatorioanual.png">
         </div>
         <div class="col-12 col-md-6 mt-5 text-center " data-anime="left">
           <p class="tituloserv text-center">RELATÓRIO ANUAL DE LAVRA</p>
@@ -193,33 +193,33 @@
             <div class="row">
               <p class="col-12 titulocontatosserv ">DEIXE SEU COMENTÁRIO</p>
             </div>
-            <div class="formBox">
-              <form method="POST" action="./php/comentarios.php" name="">
+            <div class="formBox ">
+              <form method="POST" action="./php/index.php" onsubmit="funcao()">
                 <div class="inputBox">
                   <p class="inputText">NOME:</p>
                   <input class="formularios1serv input" type="text" name="nome"><br><br>
                 </div>
                 <div class="inputBox">
                   <p class="inputText">E-MAIL:</p>
-                  <input class="formularios1serv input" type="mail" name="email"><br><br>
+                  <input class="formularios1serv input" type="email" name="email"><br><br>
                 </div>
                 <div class="inputBox">
                   <p class="inputText textocomentario">&nbsp;COMENTÁRIO:</p>
                   <textarea class="textareaserv input inputcomentarioserv" name="mensagem" id="" rows="6"
                     placeholder=""></textarea><br><br>
                 </div>
+                <div class="row">
+                  <div class="col-3 mt-4 offset-1 iconecontatos3">
+                    <a href="https://www.instagram.com/cristalminerapetrojr/" target="_blank"><img class="iconescontatostigfb " src="./img/instagrampreto.png" alt=""></a>
+                  </div>
+                  <div class="col-3 mt-4 iconecontatos3">
+                    <a href="https://www.facebook.com/cristalmpjr/?ref=br_rs" target="_blank"><img class="iconescontatostigfb" src="./img/facebookpreto.png" alt=""></a>
+                  </div>
+                  <div class="col-3 offset-1">
+                    <input class="botaocontserv btn btn-outline-warning " type="submit" name="enviar" value="Enviar">
+                  </div>
+                </div>
               </form>
-            </div>
-            <div class="row">
-              <div class="col-3 mt-4 offset-1 iconecontatos3">
-                <a href=""><img class="iconescontatostigfb " src="./img/instagrampreto.png" alt=""></a>
-              </div>
-              <div class="col-3 mt-4 iconecontatos3">
-                <a href=""><img class="iconescontatostigfb" src="./img/facebookpreto.png" alt=""></a>
-              </div>
-              <div class="col-3 offset-1 btnsn">
-                <input class="botaocontserv btn btn-outline-warning " type="submit" name="enviar" value="Enviar">
-              </div>
             </div>
           </div>
         </div>
