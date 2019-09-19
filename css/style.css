@@ -210,6 +210,10 @@ body{
 
 /* CONTATOS */
 
+.botaocontato{
+    margin-left:65%;
+}
+
 .sectioncontato{
     background-image: url(../img/bgcontatos.png);
     background-size: cover;
