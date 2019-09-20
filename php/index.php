@@ -1,8 +1,33 @@
 <?php
 
-//isset checa se o botão enviar foi clicado e só vai disparar o email se for verdadeiro
-if(isset($_POST['nome']) && isset($_POST['email']) && isset($_POST['mensagem'])){
-    $assunto = "comentários";
+ 
+
+// $nome = $_POST["nome"];
+// $email = $_POST["email"];
+// $mensagem= $_POST["mensagem"];
+
+// // aqui verificamos os campos obrigatorios
+
+// if (empty($nome)){
+
+// <script>
+//     alert('Preencha o Nome');
+//     history.go(-1);
+// </script>;
+// exit;
+//     if (empty($mensagem)){
+
+//     <script>
+//         alert('Digite alguma mensagem');
+//         history.go(-1);
+//     </script>;
+//     exit;
+// } 
+
+// }
+if (isset($_POST['nome']) && isset($_POST['email']) && isset($_POST['mensagem'])){
+
+    $assunto = "Comentários";
 
     // pegando os dados do form...
     $msg = "Nome: " . $_POST["nome"] . "<br>";
@@ -27,5 +52,11 @@ if(isset($_POST['nome']) && isset($_POST['email']) && isset($_POST['mensagem']))
     header("Location: ../index.html");
 
 }
+//else(empty($_POST['nome'])  empty($_POST['email']) && empty($_POST['mensagem'])){
+
+
+
+
+//isset checa se o botão enviar foi clicado e só vai disparar o email se for verdadeiro
 
 ?>

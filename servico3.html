@@ -94,7 +94,7 @@
       </div>
       <div class="btnorcamento3 container-fluid" data-anime="left">
         <div class="btn row d-flex justify-content-center text-center">
-          <button type="button" class="btn btn-warning mb-5"><a class="botaoorcamento" href="servico1.html">SOLICITE SEU
+          <button type="button" class="btn btn-warning mb-5"><a class="botaoorcamento scroll" href="#contato">SOLICITE SEU
               ORÇAMENTO</a></button>
         </div>
       </div>
@@ -201,26 +201,28 @@
               <p class="col-12 titulocontatosserv ">DEIXE SEU COMENTÁRIO</p>
             </div>
             <div class="formBox ">
-              <form method="POST" action="./php/index.php" onsubmit="funcao()">
+              <form method='post' action='php/index.php' onsubmit="return valida()">
                 <div class="inputBox">
                   <p class="inputText">NOME:</p>
-                  <input class="formularios1serv input" type="text" name="nome"><br><br>
+                  <input class="formularios1serv input" type="name" name="nome" id="nome"><br><br>
                 </div>
                 <div class="inputBox">
                   <p class="inputText">E-MAIL:</p>
-                  <input class="formularios1serv input" type="email" name="email"><br><br>
+                  <input class="formularios1serv input" type="email" name="email" id="email"><br><br>
                 </div>
                 <div class="inputBox">
                   <p class="inputText textocomentario">&nbsp;COMENTÁRIO:</p>
-                  <textarea class="textareaserv input inputcomentarioserv" name="mensagem" id="" rows="6"
+                  <textarea class="textareaserv input inputcomentarioserv" name="mensagem" id="mensagem" rows="6"
                     placeholder=""></textarea><br><br>
                 </div>
                 <div class="row">
                   <div class="col-3 mt-4 offset-1 iconecontatos3">
-                    <a href="https://www.instagram.com/cristalminerapetrojr/" target="_blank"><img class="iconescontatostigfb " src="./img/instagrampreto.png" alt=""></a>
+                    <a href="https://www.instagram.com/cristalminerapetrojr/" target="_blank"><img
+                        class="iconescontatostigfb " src="./img/instagrampreto.png" alt=""></a>
                   </div>
                   <div class="col-3 mt-4 iconecontatos3">
-                    <a href="https://www.facebook.com/cristalmpjr/?ref=br_rs" target="_blank"><img class="iconescontatostigfb" src="./img/facebookpreto.png" alt=""></a>
+                    <a href="https://www.facebook.com/cristalmpjr/?ref=br_rs" target="_blank"><img
+                        class="iconescontatostigfb" src="./img/facebookpreto.png" alt=""></a>
                   </div>
                   <div class="col-3 offset-1">
                     <input class="botaocontserv btn btn-outline-warning " type="submit" name="enviar" value="Enviar">
@@ -232,7 +234,6 @@
         </div>
       </div>
   </section>
-
 
 
 

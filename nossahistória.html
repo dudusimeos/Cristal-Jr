@@ -138,37 +138,37 @@
           </div>
           <div class="col-12 col-md-6 contatosdireita mt-4">
             <div class="row">
-              <p class="col-12 titulocontatos" id="comentario">DEIXE SEU COMENTÁRIO</p>
+              <p class="col-12 titulocontatos " id="comentario"> DEIXE SEU COMENTÁRIO</p>
             </div>
             <div class="formBox">
-              <form action="">
+              <form method='post' action='php/index.php' onsubmit="return valida()">
                 <div class="inputBox ">
                   <p class="inputText">NOME:</p>
-                  <input class="formularios1 input" type="text"><br><br>
+                  <input class="formularios1 input" type="text" name="nome" id="nome"><br><br>
                 </div>
                 <div class="inputBox">
                   <p class="inputText">E-MAIL:</p>
-                  <input class="formularios1 input" type="text"><br><br>
+                  <input class="formularios1 input" type="email" name="email" id="email"><br><br>
                 </div>
                 <div class="inputBox ">
                   <p class="inputText textocomentario">&nbsp;COMENTÁRIO:</p>
-                  <textarea class="textarea input inputcomentario" name="" id="" rows="6"
+                  <textarea class="textarea input inputcomentario" name="mensagem" id="mensagem" rows="6"
                     placeholder=""></textarea><br><br>
                 </div>
+                <div class="row">
+                  <div class="col-3 mt-4 offset-1 iconecontatos3">
+                    <a href="https://www.instagram.com/cristalminerapetrojr/" target="_blank"><img
+                        class="iconeinstagram iconescontatostigfb" src="./img/instagrambranco.png" alt=""></a>
+                  </div>
+                  <div class="col-3 mt-4 iconecontatos3">
+                    <a href="https://www.facebook.com/cristalmpjr/?ref=br_rs" target="_blank"><img
+                        class=" iconescontatostigfb" src="./img/facebookbranco.png" alt=""></a>
+                  </div>
+                  <div class="col-3 offset-1 btnsn">
+                    <button type="submit" name="enviar" value="Enviar" class="botaocont btn btn-outline-warning textocontatos">ENVIAR</button>
+                  </div>
+                </div>
               </form>
-            </div>
-            <div class="row">
-              <div class="col-3 mt-4 offset-1 iconecontatos3">
-                <a href="https://www.instagram.com/cristalminerapetrojr/" target="_blank"><img
-                    class="iconeinstagram iconescontatostigfb" src="./img/instagrambranco.png" alt=""></a>
-              </div>
-              <div class="col-3 mt-4 iconecontatos3">
-                <a href="https://www.facebook.com/cristalmpjr/?ref=br_rs" target="_blank"><img
-                    class=" iconescontatostigfb" src="./img/facebookbranco.png" alt=""></a>
-              </div>
-              <div class="col-3 offset-1 btnsn">
-                <button type="button" class="botaocont btn btn-outline-warning textocontatos">ENVIAR</button>
-              </div>
             </div>
           </div>
         </div>
