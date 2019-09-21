@@ -317,8 +317,34 @@
     </div>
   </div>
 
+  <!-- CLIENTES -->
+  <section class="sectionparc mt-5 container-fluid">
+    <div class="row">
+      <div class="col-12" data-anime="left">
+        <p class="tituloparc" id="parceiros">CLIENTES</p>
+        </p>
+        <hr class="linha3">
+      </div>
+    </div>
+    <div class="row">
+      <!-- CASO NAO QUEIRA 6 É SÓ POR COL-MD-3 -->
+      <div class="col-12 col-md-3  colparc animate" data-anime="left">
+        <img class="imgparc" src="./img/parceiros.png" alt="">
+      </div>
+      <div class="col-12 col-md-3  colparc animate" data-anime="left">
+        <img class="imgparc" src="./img/parceiros.png" alt="">
+      </div>
+      <div class="col-12 col-md-3  colparc animate" data-anime="left">
+        <img class="imgparc" src="./img/parceiros.png" alt="">
+      </div>
+      <div class="col-12 col-md-3  colparc animate" data-anime="left">
+        <img class="imgparc" src="./img/parceiros.png" alt="">
+      </div>
+    </div>
+  </section>
+
   <!-- PARCEIROS -->
-  <section class="sectionparc mt-3 container-fluid">
+  <section class="sectionparc  container-fluid">
     <div class="row">
       <div class="col-12" data-anime="left">
         <p class="tituloparc" id="parceiros">PARCEIROS</p>
@@ -405,7 +431,8 @@
                         class=" iconescontatostigfb" src="./img/facebookbranco.png" alt=""></a>
                   </div>
                   <div class="col-3 offset-1 btnsn">
-                    <button type="submit" name="enviar" value="Enviar" class="botaocont btn btn-outline-warning textocontatos">ENVIAR</button>
+                    <button type="submit" name="enviar" value="Enviar"
+                      class="botaocont btn btn-outline-warning textocontatos">ENVIAR</button>
                   </div>
                 </div>
               </form>
@@ -424,17 +451,79 @@
   </footer>
 
 
-  
+  <!-- LANDING PAGE -->
+  <div id="modal-promocao" class="modal-container">
+    <div class="conteudolanding">
+      <button class="fecharlanding">x</button>
+      <div class="titulolanding text-center">
+        <!-- <nav class="navbar navbar-light bg-light">
+                <span class="navbar-brand mb-0 h1">CristalJr</span>  -->
+        <img class="logolanding mt-2" src="./img/logo-preto.png" alt="">
+      </div>
+      <div class="row">
+        <div class="text-center col-12 col-md-6 ladoesquerdolanding mt-3">
+          <h1>Título Ebook</h1>
+          <p class="text-justify ml-5 mr-5 text-center">Lorem ipsum dolor sit amet consectetur adipisicing
+            elit.</p>
+          <img class="fotoebooklanding" src="./img/fotoebook.png" alt="">
+        </div>
+        <div class=" text-center col-12 col-xl-6 ladodireitolanding mt-3">
+          <form class="formulariolanding" method='post' action='php/index2.php?arquivo=pdf/planodeensino.pdf' onsubmit="return valida2()">
+            <h1 id="textodireito">Título Ebook</h1>
+            <p class="text-justify ml-5 mr-5 text-center" id="textodireito">Lorem ipsum dolor sit amet
+              consectetur adipisicing elit.</p>
+            <div class="inputBox formlanding">
+              <p class="inputText">NOME*</p>
+              <input class="formularios1 input" type="text" name="nome" id="nome"><br><br>
+            </div>
+            <div class="inputBox formlanding">
+              <p class="inputText">E-MAIL*</p>
+              <input class="formularios1 input" type="email" name="email" id="email"><br><br>
+            </div>
+            <div class="inputBox formlanding">
+              <p class="inputText">TELEFONE*</p>
+              <input class="formularios1 input" pattern="^\d{9}$" type="tel" name="telefone" id="telefone"><br><br>
+            </div>
+            <button type="submit" name="enviar" value="Download" class="btn btn-outline-warning mt-3 mb-5"><a
+                class="botaoebook" target="_blank">DOWNLOAD GRATUITO</a></button>
+          </form>
+        </div>
+      </div>
+      <div class="row footerlanding mt-5 ">
+        <div class="col-2 text-center mt-3">
+          <a href="servico6.html"><img class="imagemlanding" src="./img/emissaopequeno.png" alt=""></a>
+        </div>
+        <div class="col-2">
+          <h5 class="textodescricao mt-2">Emissão de títulos minerários</h5>
+          <p class="textodescricao">Quer começar a explorar, mas não tem as licenças e requerimentos...</p>
+        </div>
+        <div class="col-2 text-center mt-3">
+          <a href="servico1.html"> <img class="imagemlanding" src="./img/acompanhamentopequeno.png" alt=""></a>
+        </div>
+        <div class="col-2">
+          <h5 class="textodescricao mt-2">Acompanhamento de Processos</h5>
+          <p class="textodescricao">Não sabe gerar um Shapefile?</p>
+        </div>
+        <div class="col-2 text-center mt-3">
+          <a href="servico5.html"><img class="imagemlanding" src="./img/relatoriopequeno.png" alt=""></a>
+        </div>
+        <div class="col-2">
+          <h5 class="textodescricao mt-2">Relatório anual de lavra</h5>
+          <p class="textodescricao">Ao início de cada ano é preciso informar à ANM.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
 
 
   <!-- JAVASCRIPT ALERTA -->
   <script src="./js/alertacomentarios.js"></script>
-  <!-- SCRIPT DA PARTÍCULAS -->
-  <script type="text/javascript" src="./js/particles.js"></script>
-  <script type="text/javascript" src="./js/app.js"></script>
+  <!-- EFEITOS -->
   <script src="./js/aparicaonatela.js"></script>
   <script src="./js/efeitoformulário.js"></script>
-  <!-- <script src="./js/textodigitando.js"></script> -->
+  <script src="./js/landingpage.js"></script>
   <script src="./js/jsscroll.js"></script>
   <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
     crossorigin="anonymous"></script>
