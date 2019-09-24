@@ -157,17 +157,20 @@
             </button>
           </div>
           <div class="modal-body">
-            <form action="php/index2.php?arquivo=pdf/planodeensino.pdf" method="post" onsubmit="return valida2()">
-              <input type="hidden" name="material" value="Planilha de Orçamento Doméstico Básica">
+            <form action="php/ebookmeio.php?arquivo=pdf/planodeensino.pdf" method="post" onsubmit="return valida3()">
               <div class="form-group">
-                <input type="text" pattern="[A-Za-z]{3,}" class="form-control" name="nome" id="nome" placeholder="Nome">
+                <input type="text" pattern="[A-Za-z]{3,}" class="form-control" name="nome2" id="nome2" placeholder="Nome">
               </div>
               <div class="form-group">
-                <input type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" class="form-control" name="email"
-                  id="email" placeholder="E-mail">
+                <input type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" class="form-control" name="email2"
+                  id="email2" placeholder="E-mail">
+              </div>
+              <div class="form-group">
+                <input type="tel" pattern="^\d{9}$" class="form-control" name="telefone2"
+                  id="telefone2" placeholder="Telefone">
               </div>
               <div class="row justify-content-center">
-                <button type="submit" type="enviar" class="btn btn-primary form-group my-4 hvr-float-shadow">BAIXAR AGORA</button>
+                <button type="submit" type="enviar" value="Download" class="btn btn-primary form-group my-4 hvr-float-shadow">BAIXAR AGORA</button>
               </div>
             </form>
           </div>
@@ -189,17 +192,20 @@
             </button>
           </div>
           <div class="modal-body">
-            <form action="php/index2.php?arquivo=pdf/planodeensino.pdf" method="post" onsubmit="return valida2()">
-              <input type="hidden" name="material" value="Planilha de Orçamento Doméstico Básica">
+            <form action="php/ebookdireita.php?arquivo=pdf/planodeensino.pdf" method="post" onsubmit="return valida4()">
               <div class="form-group">
-                <input type="text" pattern="[A-Za-z]{3,}" class="form-control" name="nome" id="nome" placeholder="Nome">
+                <input type="text" pattern="[A-Za-z]{3,}" class="form-control" name="nome3" id="nome3" placeholder="Nome">
               </div>
               <div class="form-group">
-                <input type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" class="form-control" name="email"
-                  id="email" placeholder="E-mail">
+                <input type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" class="form-control" name="email3"
+                  id="email3" placeholder="E-mail">
+              </div>
+              <div class="form-group">
+                <input type="tel" pattern="^\d{9}$" class="form-control" name="telefone3"
+                  id="telefone3" placeholder="Telefone">
               </div>
               <div class="row justify-content-center">
-                <button type="submit" type="enviar" class="btn btn-primary form-group my-4 hvr-float-shadow">BAIXAR AGORA</button>
+                <button type="submit" type="enviar" value="Download" class="btn btn-primary form-group my-4 hvr-float-shadow">BAIXAR AGORA</button>
               </div>
             </form>
           </div>
