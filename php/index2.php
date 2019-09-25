@@ -12,7 +12,7 @@ $msg .= "Telefone:<br>" . $_POST["telefone1"];
 echo($msg);
 
 // email onde tu vai receber a mensagem
-$destinatario = "";
+$destinatario = "marcelo.carvalho@praxisjr.com.br";
 
 // headers que prepara a mensagem
 $headers = "MIME-Version: 1.0\r\n";

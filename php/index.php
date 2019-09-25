@@ -14,7 +14,7 @@ if (isset($_POST['nome']) && isset($_POST['email']) && isset($_POST['telefone'])
     echo($msg);
 
     // email onde tu vai receber a mensagem
-    $destinatario = "";
+    $destinatario = "marcelo.carvalho@praxisjr.com.br";
 
     // headers que prepara a mensagem
     $headers = "MIME-Version: 1.0\r\n";
