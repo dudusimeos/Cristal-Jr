@@ -410,15 +410,15 @@
               <form method='post' action='php/index.php' onsubmit="return valida()">
                 <div class="inputBox ">
                   <p class="inputText">NOME:</p>
-                  <input class="formularios1 input" type="text" name="nome" id="nome"><br><br>
+                  <input class="formularios1 input" type="text" pattern="[A-Za-z]{3,}" name="nome" id="nome"><br><br>
                 </div>
                 <div class="inputBox">
                   <p class="inputText">E-MAIL:</p>
-                  <input class="formularios1 input" type="email" name="email" id="email"><br><br>
+                  <input class="formularios1 input" type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" name="email" id="email"><br><br>
                 </div>
                 <div class="inputBox">
                   <p class="inputText">TELEFONE:</p>
-                  <input class="formularios1 input" type="tel" name="telefone" id="telefone"><br><br>
+                  <input class="formularios1 input" type="tel" pattern="^\d{9}$" name="telefone" id="telefone"><br><br>
                 </div>
                 <div class="inputBox ">
                   <p class="inputText textocomentario">&nbsp;COMENTÁRIO:</p>
@@ -470,41 +470,46 @@
       </div>
       <div class="row">
         <div class="text-center col-12 col-md-6 ladoesquerdolanding mt-3">
-          <h1>Título Ebook</h1>
-          <p class="text-justify ml-5 mr-5 text-center">Lorem ipsum dolor sit amet consectetur adipisicing
-            elit.</p>
+          <h1>O que são títulos minérarios?</h1>
+          <p class="text-justify ml-5 mr-5 text-center">Baixa o ebook e aprenda mais sobre.</p>
           <img class="fotoebooklanding" src="./img/fotoebook.png" alt="">
         </div>
         <div class=" text-center col-12 col-xl-6 ladodireitolanding mt-3">
-          <form class="formulariolanding" method='post' action='php/index2.php?arquivo=pdf/planodeensino.pdf'
-            onsubmit="return valida2()">
-            <h1 id="textodireito">Título Ebook</h1>
-            <p class="text-justify ml-5 mr-5 text-center" id="textodireito">Lorem ipsum dolor sit amet
-              consectetur adipisicing elit.</p>
+          <form class="formulariolanding" method='post' action='php/index2.php?arquivo=pdf/ebook1.pdf'
+            onsubmit="return validalanding()">
+            <h1 id="textodireito">Preencha para download:</h1>
             <div class="inputBox formlanding">
               <p class="inputText">NOME*</p>
-              <input class="formularios1 input" type="text" name="nome" id="nome"><br><br>
+              <input class="formularios1 input" type="text" pattern="[A-Za-z]{3,}" name="nome4" id="nome4"><br><br>
             </div>
             <div class="inputBox formlanding">
               <p class="inputText">E-MAIL*</p>
-              <input class="formularios1 input" type="email" name="email" id="email"><br><br>
+              <input class="formularios1 input" type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" name="email4" id="email4"><br><br>
+            </div>
+            <div class="inputBox formlanding">
+              <p class="inputText">CARGO*</p>
+              <input class="formularios1 input" type="text" pattern="[A-Za-z]{3,}" name="cargo" id="cargo"><br><br>
+            </div>
+            <div class="inputBox formlanding">
+              <p class="inputText">EMPRESA*</p>
+              <input class="formularios1 input" type="empresa" pattern="{3,}" name="empresa" id="empresa"><br><br>
             </div>
             <div class="inputBox formlanding">
               <p class="inputText">TELEFONE*</p>
-              <input class="formularios1 input" pattern="^\d{9}$" type="tel" name="telefone" id="telefone"><br><br>
+              <input class="formularios1 input" pattern="^\d{9}$" type="tel" name="telefone4" id="telefone4"><br>
             </div>
-            <button type="submit" name="enviar" value="Download" class="btn btn-outline-warning mt-3 mb-5"><a
+            <button type="submit" name="enviar" value="Download" class="btn btn-outline-warning mt-3 mb-3"><a
                 class="botaoebook" target="_blank">DOWNLOAD GRATUITO</a></button>
           </form>
         </div>
       </div>
-      <div class="row footerlanding mt-5 ">
+      <div class="row footerlanding mt-4 ">
         <div class="col-2 text-center mt-3">
           <a href="servico6.html"><img class="imagemlanding" src="./img/emissaopequeno.png" alt=""></a>
         </div>
         <div class="col-2">
           <h5 class="textodescricao mt-2">Emissão de títulos minerários</h5>
-          <p class="textodescricao">Quer começar a explorar, mas não tem as licenças e requerimentos...</p>
+          <p class="textodescricao">Quer começar a explorar, mas não tem as licenças...</p>
         </div>
         <div class="col-2 text-center mt-3">
           <a href="servico1.html"> <img class="imagemlanding" src="./img/acompanhamentopequeno.png" alt=""></a>

@@ -1,24 +1,26 @@
 <?php
 
-if (isset($_POST['nome3']) && isset($_POST['email3']) && isset($_POST['telefone3'])){
+if (isset($_POST['nome4']) && isset($_POST['email4']) && isset($_POST['telefone4']) isset($_POST['cargo']) isset($_POST['empresa'])){
 
 $assunto = "Landing Page";
 
 // pegando os dados do form...
-$msg = "Nome: " . $_POST["nome3"] . "<br>";
-$msg .= "E-mail: " . $_POST["email3"] . "<br>";
-$msg .= "Telefone:<br>" . $_POST["telefone3"];
+$msg = "Nome: " . $_POST["nome4"] . "<br>";
+$msg .= "E-mail: " . $_POST["email4"] . "<br>";
+$msg .= "Telefone: " . $_POST["telefone4"] . "<br>";
+$msg .= "Cargo: " . $_POST["cargo"] . "<br>";
+$msg .= "Empresa:<br>" . $_POST["empresa"];
 
 echo($msg);
 
 // email onde tu vai receber a mensagem
-$destinatario = "marcelo.carvalho@praxisjr.com.br";
+$destinatario = "";
 
 // headers que prepara a mensagem
 $headers = "MIME-Version: 1.0\r\n";
 $headers .= "Content-type: text/html; charset=utf-8\r\n";
-$headers .= "From: " . $_POST["nome3"] . "<" . $_POST["email3"] . ">\r\n";
-$headers .= "Reply-To: " . $_POST["email3"] . "\r\n";
+$headers .= "From: " . $_POST["nome4"] . "<" . $_POST["email4"] . ">\r\n";
+$headers .= "Reply-To: " . $_POST["email4"] . "\r\n";
 
 // envia o email...
 mail($destinatario,$assunto,$msg,$headers);
