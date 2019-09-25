@@ -1,37 +1,14 @@
 <?php
 
- 
 
-// $nome = $_POST["nome"];
-// $email = $_POST["email"];
-// $mensagem= $_POST["mensagem"];
-
-// // aqui verificamos os campos obrigatorios
-
-// if (empty($nome)){
-
-// <script>
-//     alert('Preencha o Nome');
-//     history.go(-1);
-// </script>;
-// exit;
-//     if (empty($mensagem)){
-
-//     <script>
-//         alert('Digite alguma mensagem');
-//         history.go(-1);
-//     </script>;
-//     exit;
-// } 
-
-// }
-if (isset($_POST['nome']) && isset($_POST['email']) && isset($_POST['mensagem'])){
+if (isset($_POST['nome']) && isset($_POST['email']) && isset($_POST['telefone']) && isset($_POST['mensagem'])){
 
     $assunto = "Comentários";
 
     // pegando os dados do form...
     $msg = "Nome: " . $_POST["nome"] . "<br>";
     $msg .= "E-mail: " . $_POST["email"] . "<br>";
+    $msg .= "Telefone: " . $_POST["telefone"] . "<br>";
     $msg .= "Mensagem:<br>" . $_POST["mensagem"];
     
     echo($msg);
