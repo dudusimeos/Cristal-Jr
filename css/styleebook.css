@@ -8,9 +8,9 @@
 }
 
 .sectionebook{
-    background-image: url(../img/bgsn.png);
-    background-repeat: repeat;
-    background-size: contain; 
+    background-image: url(../gifs/gifbackground.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .linha3{

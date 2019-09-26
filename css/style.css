@@ -17,7 +17,7 @@ body{
 }
 
 .logonav{
-    height: 60px;
+    height: 40px;
 }
 
 .nav-item{
@@ -75,9 +75,9 @@ body{
 /* SOBRE NÓS */
 
 .sectionsobrenos{
-    background-image: url(../img/bgsn.png);
-    background-repeat: repeat;
-    background-size: contain;
+    background-image: url(../gifs/gifbackground.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 /* 
 #particles-js{
@@ -454,7 +454,7 @@ footer{
 /* RESPONSIVIDADE LANDING PAGE */
 
 @media(max-width:1125px){
-    .ladoesquerdolanding{
+    /* .ladoesquerdolanding{
         display: none;
     }
 
@@ -463,6 +463,10 @@ footer{
     }
 
     .footerlanding{
+        display: none;
+    } */
+    /* FAZ COM QUE A LANDING PAGE NÃO APAREÇA PARA DISPOSITIVOS MENORES */
+    #modal-promocao{
         display: none;
     }
 }
