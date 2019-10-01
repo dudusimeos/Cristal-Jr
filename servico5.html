@@ -90,7 +90,8 @@
       </div>
       <div class="btnorcamento  container-fluid" data-anime="left">
         <div class="btn row d-flex justify-content-center text-center">
-          <button type="button" class="btn btn-warning mb-5"><a class="botaoorcamento scroll" href="#contato">SOLICITE SEU
+          <button type="button" class="btn btn-warning mb-5"><a class="botaoorcamento scroll" href="#contato">SOLICITE
+              SEU
               ORÇAMENTO</a></button>
         </div>
       </div>
@@ -197,32 +198,42 @@
               <form method='post' action='php/index.php' onsubmit="return valida()">
                 <div class="inputBox">
                   <p class="inputText">NOME:</p>
-                  <input class="formularios1serv input" type="name" pattern="[A-Za-z]{3,}" name="nome" id="nome"><br><br>
+                  <input class="formularios1serv input" pattern="[A-Za-z]{3,}" type="name" name="nome"
+                    id="nome"><br><br>
                 </div>
                 <div class="inputBox">
                   <p class="inputText">E-MAIL:</p>
-                  <input class="formularios1serv input" type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" name="email" id="email"><br><br>
+                  <input class="formularios1serv input" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" type="email"
+                    name="email" id="email"><br><br>
                 </div>
                 <div class="inputBox">
                   <p class="inputText">TELEFONE:</p>
-                  <input class="formularios1serv input" type="tel" pattern="^\d{9}$" name="telefone" id="telefone"><br><br>
+                  <input class="formularios1serv input" pattern="^\d{9}$" type="tel" name="telefone"
+                    id="telefone"><br><br>
                 </div>
                 <div class="inputBox">
                   <p class="inputText textocomentario">&nbsp;COMENTÁRIO:</p>
                   <textarea class="textareaserv input inputcomentarioserv" name="mensagem" id="mensagem" rows="6"
                     placeholder=""></textarea><br><br>
                 </div>
-                <div class="row">
-                  <div class="col-3  iconecontatos3">
-                    <a href="https://www.instagram.com/cristalminerapetrojr/" target="_blank"><img class="iconescontatostigfb " src="./img/instagrampreto.png" alt=""></a>
+                <div class="row iconecontatos4">
+                  <div class="d-flex flex-row col-md-9 py-3">
+                    <div class="col-md-4 iconecontatos3">
+                      <a href="https://www.instagram.com/cristalminerapetrojr/" target="_blank"><img
+                          class="iconescontatostigfb " src="./img/instagrampreto.png" alt=""></a>
+                    </div>
+
+                    <div class="col-md-4 iconecontatos3">
+                      <a href="https://www.facebook.com/cristalmpjr/?ref=br_rs" target="_blank"><img
+                          class="iconescontatostigfb" src="./img/facebookpreto.png" alt=""></a>
+                    </div>
+
+                    <div class="col-md-4 iconecontatos3">
+                      <a href="https://www.linkedin.com/in/cristal-minera%C3%A7%C3%A3o-e-petr%C3%B3leo-junior-a78b1a75/"
+                        target="_blank"><img class="iconescontatostigfb" src="./img/linkedinpreto.png" alt=""></a>
+                    </div>
                   </div>
-                  <div class="col-3 iconecontatos3">
-                    <a href="https://www.facebook.com/cristalmpjr/?ref=br_rs" target="_blank"><img class="iconescontatostigfb" src="./img/facebookpreto.png" alt=""></a>
-                  </div>
-                  <div class="col-3 iconecontatos3">
-                    <a href="https://www.linkedin.com/in/cristal-minera%C3%A7%C3%A3o-e-petr%C3%B3leo-junior-a78b1a75/" target="_blank"><img class="iconescontatostigfb" src="./img/linkedinpreto.png" alt=""></a>
-                  </div>
-                  <div class="col-3 ">
+                  <div class="col-md-3 ">
                     <input class="botaocontserv btn btn-outline-warning " type="submit" name="enviar" value="Enviar">
                   </div>
                 </div>
@@ -232,7 +243,6 @@
         </div>
       </div>
   </section>
-
 
   <!-- FOOTER -->
   <footer class="footerserv">
