@@ -1,2 +1,2 @@
 # Cristal-Jr
-Projeto feito enquanto estava na empresa Praxis - Empresa Jr.
+Project done while I was at Praxis - Empresa Jr.
